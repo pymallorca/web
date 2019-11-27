@@ -1,21 +1,24 @@
 language: node_js
 node_js:
-    - "10"
+- '10'
 install:
-    - yarn install
+- yarn install
 script:
-    - yarn build
+- yarn build
 cache:
-    directories:
-        - "node_modules"
+  directories:
+  - node_modules
 notifications:
-    email: false
+  email: false
 deploy:
-    provider: pages
-    skip-cleanup: true
-    local_dir: src/.vuepress/dist
-    github-token: $GITHUB_TOKEN
-    repo: pymallorca/web
-    keep-history: true
-    on:
-        branch: master
+  provider: pages
+  skip-cleanup: true
+  local_dir: src/.vuepress/dist
+  github-token: "$GITHUB_TOKEN"
+  repo: pymallorca/web
+  keep-history: true
+  on:
+    branch: master
+env:
+  global:
+    secure: t0UY/mFy39sTq9N1qTJEt7wEYW55wexVupRCJFzj0Nls8abJPi2whsa5FPahQjx3kofAU23nOBERprc9xTF6hSQjT83nHedVUcYdgSQp7JEMZ6uuU1QfjZ+1W4lEPqtFlDwNoL8sBHSW1kAfl0bkM30Xjde8osnSSt1aFuNmZe4ouDb02njgOUg5TAuOnU5GzmrdfDoHZ1t/40SlOJ7urRlbkyHHLgAvWfkeGl+oKwqWYd0b/3IPc0FXBBc6xYbU1em/ldict/7R9I4fgTU621NX4ecd0C/XMYPOPUAtqWzBgMPcVL8JnuoBva/EcZqjzNnYV0+Pd2twAUozRUXgcp9e0Z6NMb68E4SzS88GtMvvlOQjowkppNzBL9q2hz/i4v4bk70wZPfsKvMdXFzaf+GlWcE0jRbGcaoLIPXf50jQPd9/V7pEYFn9mkGbIpp/gwTDwzC2yuO72kbss9GqTocaheeHCPYi9A6ntNH7Ur4wMjTvnMlvKLrab0Xt6xE4tXjZrNBVOf39VZoVAJo4hHOvFA7au0exLDP5AKT5orn6hgcYdC1CILlb9DyUfE/Xb/bSBS+yF7SNE92YiaYAzqm/SJYkJx3DC8Wp4/0V8TIex/AuLkeiWhPXnlfNC0v5l2kdC2uG4x8ikx10Fj07yM2C2TQIiGA9Z3u7e31coZE=
