@@ -1,14 +1,13 @@
 const helpers = require('./helpers')
 
 module.exports = {
-  title: 'Python Girona',
+  title: 'Python Mallorca',
   //base: '/web/',
   themeConfig: {
     nav: [
         { text: 'Inici', link: '/' },
         { text: 'Trobades', link: '/meetings/' },
         { text: 'Propostes', link: '/proposals/' },
-        { text: 'Feines', link: '/jobs/' },
         { text: 'Contacte', link: '/contact/' },
     ],
     sidebar: {
@@ -21,12 +20,7 @@ module.exports = {
         'Trobades',
         './src/meetings/',
         true,
-      ),
-      '/jobs/': helpers.utils.genSidebarConfig(
-        'Ofertes de feina',
-        './src/jobs/',
-        true,
-      ),
+      )
     }
   },
   configureWebpack: {

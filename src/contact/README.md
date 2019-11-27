@@ -5,21 +5,17 @@ is_index: true
 
 Ens trobaràs a qualsevol dels següents canals:
 
-- [Calendari de trobades](https://www.meetup.com/PythonGirona)
+- [Calendari de trobades](https://www.meetup.com/es-ES/Mallorca-Python-Meetup/)
 
-- [Llista de correu](mailto:pygrn-list@meetup.com)
+- [Github](https://github.com/pymallorca)
 
-- [Github](https://github.com/pygrn)
+- [Telegram](https://t.me/pymallorca)
 
-- [Telegram](https://t.me/pygrn)
-
-- [Gitter](https://gitter.im/python_girona)
-
-- [Web](http://pythongirona.cat)
+- [Web](http://pymallorca.org)
 
 
 ## Amb el suport de
 
 Tot això és possible gràcies a:
 
-- [<img style='vertical-align:middle;margin-right:10px;' src="/parcudg.png" width=40px> Parc Científic i Tecnològic de la Universitat de Girona](http://www.parcudg.com/ "Parc Científic i Tecnològic de la UdG")
+- El grup de [Python GironaWeb](http://pythongirona.cat)

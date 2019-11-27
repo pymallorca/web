@@ -15,16 +15,16 @@ Abans de cada data de trobada s'escull la proposta més adient, tenint en compte
 
 ## Vols afegir una nova proposta?
 
-Només cal que preparis una [nova issue](https://github.com/pygrn/xerrades/issues/new) mantenint el següent format:
+Només cal que preparis una [nova issue](https://github.com/pymallorca/xerrades/issues/new) mantenint el següent format:
 
 <file-content
   v-bind:github="{organization:'pygrn', repo:'xerrades', path: '.github/ISSUE_TEMPLATE.md'}"
 />
 
-Es recomana que tingui una durada màxima de 45'.
+Es recomana que tingui una durada màxima de 30'.
 
 ::: tip
-No cal que copiïs aquest exemple, si fas una [nova issue](https://github.com/pygrn/xerrades/issues/new) se't carregarà per defecte aquesta plantilla
+No cal que copiïs aquest exemple, si fas una [nova issue](https://github.com/pymallorca/xerrades/issues/new) se't carregarà per defecte aquesta plantilla
 :::
 
 ## Com votar una proposta?
@@ -42,7 +42,7 @@ Concretament fem una reacció `+1` (:+1:) al missatge base de la `issue`:
 <issues-list
   :limit=0
   emptyMessage="No s'ha trobat cap proposta pendent"
-  v-bind:github="{organization:'pygrn', repo:'xerrades', params:{state: 'open'}}"
+  v-bind:github="{organization:'pymallorca', repo:'xerrades', params:{state: 'open'}}"
 />
 
 ## Propostes tancades
@@ -50,5 +50,5 @@ Concretament fem una reacció `+1` (:+1:) al missatge base de la `issue`:
 <issues-list
   :limit=0
   emptyMessage="No s'ha trobat cap proposta tancada"
-  v-bind:github="{organization:'pygrn', repo:'xerrades', params:{state: 'closed'}}"
+  v-bind:github="{organization:'pymallorca', repo:'xerrades', params:{state: 'closed'}}"
 />

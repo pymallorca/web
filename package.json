@@ -1,7 +1,7 @@
 {
-  "name": "python-girona-web",
+  "name": "pymallorca-web",
   "version": "0.1.0",
-  "description": "Python Girona website",
+  "description": "Python Mallorca website",
   "scripts": {
     "dev": "node_modules/.bin/vuepress dev src",
     "build": "node_modules/.bin/vuepress build src"
@@ -12,8 +12,8 @@
   },
   "keywords": [
     "python",
-    "girona",
-    "pygrn"
+    "mallorca",
+    "pymallorca"
   ],
   "author": "",
   "license": "MIT",

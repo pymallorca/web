@@ -1,3 +1,3 @@
-# Python Girona website
+# Python Mallorca website
 
-[https://pythongirona.cat](https://pythongirona.cat)
+[https://pymallorca.org](https://pymallorca.org)

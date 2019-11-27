@@ -1,15 +1,15 @@
 ---
 home: true
-heroImage: /pygi.jpeg
-heroText: Python Girona
-tagline: Som gironins apassionats pel Python i per la tecnologia
+heroImage: /python.png
+heroText: Python Mallorca
+tagline: Som mallorquins apassionats pel Python i per la tecnologia
 actionText: Més informació →
 actionLink: /meetings/
 features:
 - title: Què fem?
-  details: Fem tant tallers com xerrades!
+  details: Fem xerrades!
 - title: Quan ens trobem?
-  details: Ens trobem un cop al mes, normalment el segon dijous de cada mes
+  details: Ens trobem un cop cada dos mesos, normalment el darrer dijous de mes.
 - title: On ens trobem?
-  details: Al Parc Tecnològic de la UdG
+  details: No tenim cap lloc determinat. Cada event es pot fer a una localització diferent.
 ---
