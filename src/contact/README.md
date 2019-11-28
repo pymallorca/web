@@ -5,17 +5,20 @@ is_index: true
 
 Ens trobaràs a qualsevol dels següents canals:
 
+- [Web](http://pymallorca.org)
+
 - [Calendari de trobades](https://www.meetup.com/es-ES/Mallorca-Python-Meetup/)
+
+- [Twitter](https://twitter.com/MallorcaPython)
 
 - [Github](https://github.com/pymallorca)
 
 - [Telegram](https://t.me/pymallorca)
-
-- [Web](http://pymallorca.org)
 
 
 ## Amb el suport de
 
 Tot això és possible gràcies a:
 
-- El grup de [Python GironaWeb](http://pythongirona.cat)
+- [Centre Cultural Casa Planas](http://www.centreculturalcasaplanas.org/)
+- El grup de [Python Girona](http://pythongirona.cat)
